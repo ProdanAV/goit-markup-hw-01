@@ -1,0 +1,114 @@
+:root {
+    --primary-text-color: #757575;
+    --title-text-color: #212121;
+    --accent-color: #2196F3;
+    --primary-white-color: #ffffff;
+}
+
+body {
+    color: var(--primary-text-color);
+    background-color: var(--primary-white-color);
+}
+
+.list {
+    list-style: none;
+}
+
+.logo {
+    color: var(--accent-color);
+}
+
+/* site-nav */
+
+.site-nav .link {
+    color: var(--title-text-color);
+}
+
+.site-nav .link:hover,
+.site-nav .link:focus {
+    color: var(--accent-color);
+}
+
+.site-nav .link.current {
+    color: var(--accent-color);
+}
+
+/* auth-nav */
+
+.auth-nav .link {
+    color: var(--primary-text-color);
+}
+
+.auth-nav .link:hover,
+.auth-nav .link:focus {
+    color: var(--accent-color);
+}
+
+
+/* Hero ФОН СДЕЛАН ИСКЛЮЧИТЕЛЬНО ДЛЯ ТОГО ЧТОБЫ БЫЛО ВИДНО НАДПИСЬ*/ 
+
+.hero-title {
+    color: var(--primary-white-color);
+    background-color: black;
+}
+
+/* Section */
+
+.section-title  {
+    color: var(--title-text-color);
+}
+
+/* Features */
+
+.feature-list .title {
+    color: var(--title-text-color);
+}
+
+.feature-list .picture:hover {
+    background-color: var(--accent-color);
+}
+
+/* Team */
+
+.team-list .title {
+    color: var(--title-text-color);
+}
+
+.team-list .link:hover,
+.team-list .link:focus {
+    color: var(--primary-white-color);
+    background-color:var(--accent-color);
+}
+
+
+.title-app {
+    color: var(--primary-white-color);
+    background-color: black;
+}
+
+/* Button */
+
+.button {
+    color: var(--primary-white-color);
+    background-color: var(--accent-color);
+}
+
+/* Footer */
+
+.label .link:hover,
+.label .link:focus {
+    color: var(--accent-color);
+}
+
+
+
+
+/* Цвет основного текста #757575 */
+
+/* Вторичный цвет текста #212121 */
+
+/* Белый #FFFFFF */
+
+/* Акцент #2196F3 */
+
+/* Вторичный цвет фона #F5F4FA */
